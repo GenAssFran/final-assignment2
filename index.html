@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald:wght@200;300&family=Prompt:wght@300&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="main.css">
+<title>Pics Fix</title>
+</head>
+<body>
+  <div class="top-heading">
+  <div class="logo-image1"<img <a href="https://imgur.com/MCyqhMI"><img src="https://i.imgur.com/MCyqhMI.jpg" title="source: imgur.com" /></a></div>
+    <h1>PICS FIX</h1>
+    <div class="logo-image2"<a href="https://imgur.com/uDZueUf"><img src="https://i.imgur.com/uDZueUf.jpg" title="source: imgur.com" /></a></div>
+</div>
+  </div>
+
+<div class="subheading">
+<h2 class="pick-a-fix">PICK A FIX</h2> 
+<h2 class="fix-a-pic">TO FIX A PIC</h2>
+</div>
+  <p class="intro">Pull out your favourite pics, upload it and tell us what you want fixed</p>
+  <div class="fixes">
+    <ul class="fixers">
+      <button class= "fixer"id="touchup">TOUCH-UPS</button>
+      <button class="fixer" id="deletions">DELETIONS</button>
+      <button class="fixer" id="hindsight">HINDSIGHT</button>
+      <button class="fixer" id="other">OTHER</button>
+  </ul>
+   
+</div>
+<form> <div class="client-info">
+    <h2 class="upload-contact-info">Upload Your Pics and Contact Information</h2>
+  <input type ="text" placeholder="Name" />
+     <div id="drop_zone"      ondrop="dropHandler(event);"  ondragover="dragOverHandler(event);">
+  <p class=drop-zone>Drag one or more files to this Drop Zone ...</p>
+</div><br>
+  <input type="email" value="default@example.com">
+Enter your email address</input>    
+  <br><br>
+    <input type="text" value="Enter your required edits  here" name="edits"><br>
+         <input type="submit" value="Submit"><br>After uploading your pics and your details, click Submit
+</form>
+</body>
+<script src="main.js"></script>
+</html>
+
